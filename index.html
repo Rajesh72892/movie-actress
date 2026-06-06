@@ -1,1 +1,130 @@
-akfjahefelfnldjhfenfm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Famous Movie Actresses</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f4f4;
+    }
+
+    header{
+        background:linear-gradient(135deg,#ff416c,#ff4b2b);
+        color:white;
+        text-align:center;
+        padding:30px;
+    }
+
+    header h1{
+        font-size:40px;
+    }
+
+    .container{
+        width:90%;
+        margin:30px auto;
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+    }
+
+    .card{
+        background:white;
+        border-radius:15px;
+        overflow:hidden;
+        box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        transition:0.3s;
+    }
+
+    .card:hover{
+        transform:translateY(-10px);
+    }
+
+    .card img{
+        width:100%;
+        height:300px;
+        object-fit:cover;
+    }
+
+    .card-content{
+        padding:15px;
+        text-align:center;
+    }
+
+    .card-content h2{
+        color:#333;
+        margin-bottom:10px;
+    }
+
+    .card-content p{
+        color:#666;
+        line-height:1.5;
+    }
+
+    footer{
+        text-align:center;
+        background:#222;
+        color:white;
+        padding:15px;
+        margin-top:30px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌟 Famous Movie Actresses 🌟</h1>
+    <p>Celebrating talented actresses from the film industry</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500" alt="Actress">
+        <div class="card-content">
+            <h2>Deepika Padukone</h2>
+            <p>One of India's most successful actresses known for her versatility and powerful performances.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500" alt="Actress">
+        <div class="card-content">
+            <h2>Alia Bhatt</h2>
+            <p>Popular actress recognized for her acting skills and successful Bollywood films.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500" alt="Actress">
+        <div class="card-content">
+            <h2>Samantha Ruth Prabhu</h2>
+            <p>Renowned actress in Telugu and Tamil cinema with numerous award-winning performances.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=500" alt="Actress">
+        <div class="card-content">
+            <h2>Rashmika Mandanna</h2>
+            <p>Known for her charm and performances across Telugu, Kannada, and Hindi films.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Movie Actress Gallery | Designed with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
