@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: movie-actress
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: movie-actress
+  template:
+    metadata:
+      labels:
+        app: movie-actress
+    spec:
+      containers:
+      - name: movie-actress
+        image: 475251761877.dkr.ecr.us-east-1.amazonaws.com/movie-actress:latest
+        ports:
+        - containerPort: 80
